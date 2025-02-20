@@ -1,0 +1,20 @@
+# Ignore the entire data and data_out folders
+data/
+data_out/
+
+# Ignore the __pycache__ directory inside src
+src/__pycache__/
+
+# Ignore config.json
+config.json
+
+# General Python ignores
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+
+# Virtual environment
+venv/
+.env
